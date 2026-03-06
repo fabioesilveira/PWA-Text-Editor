@@ -25,16 +25,16 @@ This project was built to practice modern web development concepts including Pro
 
 ## Tech Stack
 
-Frontend
+### Frontend
 - JavaScript (ES6+)
 - HTML
 - CSS
 
-Backend
+### Backend
 - Node.js
 - Express
 
-Tools & Technologies
+### Tools & Technologies
 - Webpack
 - Babel
 - Workbox
@@ -44,7 +44,7 @@ Tools & Technologies
 
 ---
 
-## Screenshots
+## Screenshot
 
 ![Text Editor](public/images/TextEditor.png)
 
@@ -71,4 +71,6 @@ npm run build
 npm start
 ```
 
-The application will run at: http://localhost:3002
+The application will run at:
+
+`http://localhost:3002`
