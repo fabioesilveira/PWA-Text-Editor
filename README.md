@@ -1,15 +1,77 @@
-# Model-View-Controller-MVC-The-Classic-Blog
+# PWA Text Editor
 
 ## Description
-This is Just Another Text Editor (JATE) that can be used online, offline, and installed onto your desktop as well! Files are bundled with Webpack to make the code more efficient.
 
-## Usage
-The user can enter text which will be saved once they click anywhere on the screen. The text will remain even after refreshing the page. To install JATE, users can click the install button on the top left or the download icon on the very right of the browsers address bar.
+This project is a Progressive Web Application (PWA) text editor that runs in the browser and allows users to create and save notes both online and offline.
 
+The application demonstrates core PWA concepts such as service workers, asset caching, and offline data persistence. Users can write and edit text in the editor, and the content is automatically saved using IndexedDB. Even if the browser is refreshed or the application is reopened later, the content remains available.
 
-## Reference
+The app can also be installed on a user's device as a desktop-like application, providing a more native experience.
 
-![Screenshot of Deployed Website](/public/images/TextEditor.png)
+This project was built to practice modern web development concepts including Progressive Web Apps, offline functionality, and client-server architecture.
 
-[Live Demo Link](https://texteditor-pwa-f4d4a70f76f4.herokuapp.com/)
+---
 
+## Features
+
+- Write and edit text directly in the browser
+- Automatic content saving
+- Offline functionality using service workers
+- Persistent storage with IndexedDB
+- Installable as a Progressive Web App
+- Asset caching for faster load times
+
+---
+
+## Tech Stack
+
+Frontend
+- JavaScript (ES6+)
+- HTML
+- CSS
+
+Backend
+- Node.js
+- Express
+
+Tools & Technologies
+- Webpack
+- Babel
+- Workbox
+- IndexedDB
+- idb
+- Service Workers
+
+---
+
+## Screenshots
+
+![Text Editor](client/src/images/demo.png)
+
+---
+
+## Live Demo
+
+https://pwa-text-editor-0m1p.onrender.com
+
+---
+
+## Installation
+
+Clone the repository and run the application locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/fabioesilveira/PWA-Text-Editor.git
+
+# Navigate to the project directory
+cd PWA-Text-Editor
+
+# Install dependencies
+npm install
+
+# Build the client
+npm run build
+
+# Start the server
+npm start
