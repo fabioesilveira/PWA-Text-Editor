@@ -46,13 +46,7 @@ Tools & Technologies
 
 ## Screenshots
 
-![Text Editor](client/src/images/demo.png)
-
----
-
-## Live Demo
-
-https://pwa-text-editor-0m1p.onrender.com
+![Text Editor](public/images/TextEditor.png)
 
 ---
 
@@ -75,3 +69,6 @@ npm run build
 
 # Start the server
 npm start
+```
+
+The application will run at: http://localhost:3002
